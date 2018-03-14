@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            'D:/Python proj/DjangoSite/blog/templates',
+            #'D:/Python proj/DjangoSite/blog/templates',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
